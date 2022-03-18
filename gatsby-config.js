@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://gatsbysitemain11366.gtsb.io/`,
-    title: "Netharian's Website",
+    title: "Ultimate Website",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -14,5 +14,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };
